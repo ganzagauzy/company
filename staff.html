@@ -18,25 +18,25 @@
 </head>
 <body>
     <nav class="nav nav-pills flex-column flex-sm-row bg">
-        <a class="flex-sm-fill text-sm-center nav-link text-light active" aria-current="page" href="#">Login / Register</a>
+        <a class="flex-sm-fill text-sm-center nav-link text-light active" aria-current="page" href="#">Staff</a>
         <!-- <a class="flex-sm-fill text-sm-center nav-link text-light" href="#">Staff </a> -->
-        <!-- <a class="flex-sm-fill text-sm-center nav-link text-light" href="manager.html">Manager</a>
+        <a class="flex-sm-fill text-sm-center nav-link text-light" href="manager.html">Manager</a>
         <a class="flex-sm-fill text-sm-center nav-link text-light" href="descision.html">Decsion Making</a>
-        <a class="flex-sm-fill text-sm-center nav-link text-light" href="#">Log out</a> -->
+        <a class="flex-sm-fill text-sm-center nav-link text-light" href="index.html">Log out</a>
         
     </nav>
     
 
-    <section class="staff py-5 d-flex justify-content-center align-content-center">
+    <section class="staff py-3 d-flex justify-content-center align-content-center">
         <div class="container row justify-content-center mb-3 ">
             <div class="icon col-md">
                 <div class="iconBx active" data-id="content1">
-                    <h5 >Log In</h5>
+                    <h5 >Requisition Form</h5>
                 </div>
                 <div class="iconBx" data-id="content2">
-                    <h5 >Register</h5>
+                    <h5 >Abscence Form</h5>
                 </div>
-                <!-- <div class="iconBx" data-id="content3">
+                <div class="iconBx" data-id="content3">
                     <h5 >Sick Leave Request</h5>
                 </div>
                 <div class="iconBx" data-id="content4">
@@ -44,13 +44,13 @@
                 </div>
                 <div class="iconBx" data-id="content5">
                     <h5 >View Account</h5>
-                </div> -->
+                </div>
             </div>
             <div class="content col-md ">
                 <div class="contentBx active" id="content1">
                     <div>
                         <div class="contactForm">
-                            <h5>Log in</h5>
+                            <h5>Requisition Form</h5>
                             <form action="">
                                
                                     <div class="inputBox">
@@ -78,7 +78,7 @@
                                     </div>
                                    
                                     <div class="inputBox" >
-                                        <input type="submit" class="btn"  value="Log in">
+                                        <input type="submit" class="btn"  value="Send Request">
                                     </div>
                                 
                             </form>
@@ -88,7 +88,7 @@
                 <div class="contentBx" id="content2">
                     <div>
                         <div class="contactForm">
-                            <h5>Register</h5>
+                            <h5>Abscence Form</h5>
                             <form action="">
                                 <table>
                                     <div class="inputBox">
@@ -112,20 +112,55 @@
                                     </div>
                                    
                                     <div class="inputBox" >
-                                        <input type="submit" class="btn "  value="Register">
+                                        <input type="submit" class="btn "  value="Send Request">
                                     </div>
                                 </table>
                             </form>
                         </div>
                     </div>
                 </div>
-                <div class="contentBx" id="content3">
+                <div class="contentBx " id="content3">
                     <div>
                         <div class="contactForm">
-                            <h4>Sick Leave Request</h4>
+                            <h5>Sick Leave Request</h5>
+                            <form action="">
+                                <table>
+                                    <div class="inputBox">
+                                        Commencement Date
+                                        <input type="date" name="date" required>
+                                    </div>
+                                    <div class="inputBox">
+                                        Date Of Return
+                                        <input type="date" name="date" required>
+                                    </div>
+                                    <div class="inputBox">
+                                        <textarea required placeholder="Sick Reason" ></textarea>
+                                    </div>
+                                    <div class="inputBox">
+                                        Number Of Days
+                                        <input type="number" name="number" required >
+                                    </div>
+                                    <div class="inputBox">
+                                        Attach Sick Leave Document
+                                        <input type="file" name="file" required >
+                                    </div>
+                                    <div class="inputBox">
+                                        <textarea required placeholder="Staff Comment" ></textarea>
+                                    </div>
+                                   
+                                    <div class="inputBox">
+                                        <textarea required placeholder="Manager Comment" ></textarea>
+                                    </div>
+                                   
+                                    <div class="inputBox " >
+                                        <input type="submit" class="btn "  value="Send Request">
+                                    </div>
+                                </table>
+                            </form>
                         </div>
                     </div>
                 </div>
+                
                 <div class="contentBx" id="content4">
                     <div>
                         <div class="contactForm">

@@ -27,7 +27,7 @@ a .nav-link {
     
     flex-wrap: wrap;
     width: 100%;
-    min-height: 75vh;
+    min-height: 85vh;
     
 }
 .container .icon {
@@ -163,7 +163,7 @@ a .nav-link {
     .container .content {
         border-top: 1px solid #fff;
         width: 100%;
-        padding-bottom: 500px;
+        padding-bottom: 550px;
         padding-right: 250px;
     }
 }
