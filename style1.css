@@ -1,0 +1,54 @@
+
+
+
+
+.contactForm {
+    max-width: 500px;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+}
+.contactForm .inputBox {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 20px;
+    /* color: #fff; */
+
+}
+
+
+.contactForm .inputBox input ,
+.contactForm .inputBox textarea {
+    width: 100%;
+    height: 100%;
+    border: 1px solid #555;
+    
+    color: #111;
+   
+    outline: none;
+    font-size: 20px;
+    font-weight: 400;
+    resize: none;
+     
+}
+.contactForm .inputBox input[type="submit"]{
+    font-size: 1em;
+    color: #fff;
+   
+    display: inline-block;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+    transition: 0.5s;
+    font-weight: 500;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+.contactForm .inputBox .btn:hover{
+    letter-spacing: 2px;
+}
