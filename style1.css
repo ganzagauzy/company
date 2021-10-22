@@ -3,11 +3,24 @@
 
 
 .contactForm {
+    display: flex;
+    justify-content: center;
     max-width: 500px;
     align-items: center;
     width: 100%;
     height: 100%;
     padding: 20px;
+}
+.bg-dark1 {
+    margin: 15px 0;
+    letter-spacing: 2px;
+}
+nav {
+    background: #02273f;
+}
+.signin {
+    padding-top: 100px;
+    
 }
 .contactForm .inputBox {
     position: relative;
@@ -36,9 +49,9 @@
 .contactForm .inputBox input[type="submit"]{
     font-size: 1em;
     color: #fff;
-   
+    background: #02273f;
     display: inline-block;
-    text-transform: uppercase;
+    
     text-decoration: none;
     letter-spacing: 2px;
     transition: 0.5s;
